@@ -5,14 +5,4 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <com.jeremyfeinstein.slidingmenu.lib.SlidingMenu
-        android:id="@+id/navigation_drawer"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        sliding:mode="left"
-        sliding:touchModeAbove="fullscreen"
-        sliding:shadowWidth="15dp"
-        sliding:shadowDrawable="@drawable/drawer_shadow"
-        sliding:behindOffset="60dp"/>
-
 </LinearLayout>

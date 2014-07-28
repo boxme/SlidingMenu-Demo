@@ -16,6 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".FadeInActivity"
+            android:label="@string/title_activity_fade_in" >
+        </activity>
+        <activity
+            android:name=".LeftToRightActivity"
+            android:label="@string/title_activity_left_to_right" >
+        </activity>
+        <activity
+            android:name=".SlideBtmToTopActivity"
+            android:label="@string/title_activity_slide_btm_to_top" >
+        </activity>
     </application>
 
 </manifest>
